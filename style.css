@@ -1,7 +1,24 @@
 * {
-    background: rgb(244,244,244)
+    font-family: Helvetica, Arial, Tahoma, Verdana;
+}
+
+#titulo {
+    background: #cfffca;
+}
+
+#nombreTitulo {
+    padding-left: 15px;
+    padding-right: 15px;
+    border-left: 1px solid blue;
+    border-right: 1px solid blue;
 }
 
 #indice {
-    border: black
+     background: rgb(255, 0, 0);    
 }
+
+
+#cuerpo {
+    background: rgb(0, 255, 200);
+}
+
