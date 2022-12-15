@@ -1,24 +1,40 @@
 * {
     font-family: Helvetica, Arial, Tahoma, Verdana;
+    
 }
 
+body {
+    background-image: url(img/SL-100420-36140-29.jpg);
+}
 #titulo {
-    background: #cfffca;
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+
 }
 
 #nombreTitulo {
     padding-left: 15px;
     padding-right: 15px;
-    border-left: 1px solid blue;
-    border-right: 1px solid blue;
+    border-left: 1px solid rgb(0, 0, 0);
+    border-right: 1px solid rgb(0, 0, 0);
 }
 
 #indice {
-     background: rgb(255, 0, 0);    
+     background: rgb(255, 255, 255);
+     padding-top: 15px;
+     padding-bottom: 15px;
+     border-bottom: 1px solid black;
+         
 }
 
-
-#cuerpo {
-    background: rgb(0, 255, 200);
+#formacionCuerpo {
+    border-bottom: 1px solid black;
 }
 
+div article dt {
+    border-right: 1px solid black;
+}
+
+div article dl {
+    border-bottom: 1px solid black;
+}
