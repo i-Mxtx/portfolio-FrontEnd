@@ -27,14 +27,13 @@ body {
          
 }
 
-#formacionCuerpo {
-    border-bottom: 1px solid black;
-}
 
-div article dt {
+
+div section dt {
     border-right: 1px solid black;
 }
 
-div article dl {
+div section dl {
     border-bottom: 1px solid black;
 }
+
